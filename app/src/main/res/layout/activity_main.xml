@@ -16,6 +16,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_weight="1"
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.fragments_example.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_blank" />
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_weight="1"
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.fragments_example.BlankFragment2"
+        android:layout_width="match_parent"
+        tools:layout="@layout/fragment_blank2"
+        android:layout_height="wrap_content"
+        />
 
 
 </LinearLayout>
